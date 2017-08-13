@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abednego.mwingiregistration.List"
+    android:id="@+id/register_fragment"
+    android:padding="@dimen/activity_horizontal_margin"
+    >
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/registered_recy_list"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+<!--<android.support.v7.widget.AppCompatButton-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@drawable/custom_btn"-->
+    <!--android:text="Pop List"-->
+    <!--android:id="@+id/btn_show_list"/>-->
+
+</FrameLayout>

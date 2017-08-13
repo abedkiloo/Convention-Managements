@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Mwingi Believers Registration</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <string name="register">Register</string>
+    <string name="register_tab">Registeration Tab</string>
+    <string name="registered_list">Registered List</string>
+
+
+    <!--Register screen-->
+    <string name="first_name" >First Name</string>
+    <string name="second_name" >Second Name</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="home_church" >Home Church</string>
+    <string name="age_group" >Age Group</string>
+    <string name="below_18" >Below 18 years</string>
+    <string name="above_18" >Above 18 years</string>
+    <string name="border_state">Border or Not Border</string>
+    <string name="border">Border</string>
+    <string name="not_border">Not Border</string>
+    <string name="amount_paid">Amount Paid</string>
+</resources>
