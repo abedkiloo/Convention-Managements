@@ -1,4 +1,4 @@
-package com.example.abednego.mwingiregistration;
+package com.example.abednego.mwingiregistration.activities;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -7,6 +7,10 @@ import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.example.abednego.mwingiregistration.R;
+import com.example.abednego.mwingiregistration.fragments.Register;
+import com.example.abednego.mwingiregistration.fragments.RegisteredList;
 
 public class LandingActivity extends AppCompatActivity {
 

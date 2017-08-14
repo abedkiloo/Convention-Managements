@@ -1,11 +1,10 @@
-package com.example.abednego.mwingiregistration;
+package com.example.abednego.mwingiregistration.fragments;
 
 import android.os.Bundle;
 import android.support.annotation.IdRes;
 import android.support.design.widget.TextInputEditText;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v7.widget.AppCompatButton;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,6 +14,9 @@ import android.widget.CompoundButton;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
+
+import com.example.abednego.mwingiregistration.R;
+import com.example.abednego.mwingiregistration.database.LocalDB;
 
 public class Register extends Fragment {
     LocalDB localDB;

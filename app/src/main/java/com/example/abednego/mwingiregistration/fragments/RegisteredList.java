@@ -1,7 +1,6 @@
-package com.example.abednego.mwingiregistration;
+package com.example.abednego.mwingiregistration.fragments;
 
 import android.database.Cursor;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.TextInputEditText;
 import android.support.v4.app.Fragment;
@@ -13,6 +12,11 @@ import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.example.abednego.mwingiregistration.objects_model.PersonDetails;
+import com.example.abednego.mwingiregistration.R;
+import com.example.abednego.mwingiregistration.adapter.CustomizedList;
+import com.example.abednego.mwingiregistration.database.LocalDB;
 
 import java.util.ArrayList;
 import java.util.List;

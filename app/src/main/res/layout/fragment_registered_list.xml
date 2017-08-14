@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.abednego.mwingiregistration.RegisteredList"
+    tools:context="com.example.abednego.mwingiregistration.fragments.RegisteredList"
     android:id="@+id/register_fragment"
     android:padding="@dimen/sp_16"
     >

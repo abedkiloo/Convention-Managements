@@ -1,4 +1,4 @@
-package com.example.abednego.mwingiregistration;
+package com.example.abednego.mwingiregistration.objects_model;
 
 /**
  * Created by abednego on 8/12/17.

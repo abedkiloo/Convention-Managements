@@ -1,4 +1,4 @@
-package com.example.abednego.mwingiregistration;
+package com.example.abednego.mwingiregistration.database;
 
 import android.content.ContentValues;
 import android.content.Context;
