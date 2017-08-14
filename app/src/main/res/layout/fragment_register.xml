@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="@dimen/activity_horizontal_margin"
+    android:padding="@dimen/sp_16"
     tools:context="com.example.abednego.mwingiregistration.Register">
 
 
@@ -53,13 +53,13 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="@dimen/activity_horizontal_margin"
+                android:padding="@dimen/sp_16"
                 android:text="@string/male" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="@dimen/activity_horizontal_margin"
+                android:padding="@dimen/sp_16"
                 android:text="@string/female" />
         </RadioGroup>
 
@@ -80,14 +80,14 @@
                 android:id="@+id/check_below_18"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="@dimen/activity_horizontal_margin"
+                android:padding="@dimen/sp_16"
                 android:text="@string/below_18" />
 
             <CheckBox
                 android:id="@+id/check_above_18"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="@dimen/activity_horizontal_margin"
+                android:padding="@dimen/sp_16"
                 android:text="@string/above_18" />
         </android.support.v7.widget.LinearLayoutCompat>
 
@@ -119,13 +119,13 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="@dimen/activity_horizontal_margin"
+                android:padding="@dimen/sp_16"
                 android:text="@string/border" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="@dimen/activity_horizontal_margin"
+                android:padding="@dimen/sp_16"
                 android:text="@string/not_border" />
         </RadioGroup>
 

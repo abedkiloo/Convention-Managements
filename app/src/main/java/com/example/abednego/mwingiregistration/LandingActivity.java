@@ -6,7 +6,6 @@ import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
-import android.widget.TextView;
 
 public class LandingActivity extends AppCompatActivity {
 
@@ -39,7 +38,7 @@ public class LandingActivity extends AppCompatActivity {
                     fragmentManager.beginTransaction().replace(R.id.content,new Register()).commit();
                     return true;
                 case R.id.navigation_dashboard:
-                    fragmentManager.beginTransaction().replace(R.id.content,new List()).commit();
+                    fragmentManager.beginTransaction().replace(R.id.content,new RegisteredList()).commit();
 //                    mTextMessage.setText(R.string.title_dashboard);
                     return true;
 //                case R.id.navigation_notifications:
