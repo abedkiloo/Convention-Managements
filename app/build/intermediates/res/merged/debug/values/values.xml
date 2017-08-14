@@ -45,6 +45,7 @@
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
+    <color name="dull">#504549</color>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
@@ -530,6 +531,7 @@
     <dimen name="notification_subtext_size">13sp</dimen>
     <dimen name="notification_top_pad">10dp</dimen>
     <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <dimen name="sp_10">10sp</dimen>
     <dimen name="sp_16">16sp</dimen>
     <dimen name="sp_24">24sp</dimen>
     <dimen name="sp_32">32sp</dimen>
@@ -617,6 +619,7 @@
     <string name="register_tab">Registeration Tab</string>
     <string name="registered_list">Registered List</string>
     <string name="search_menu_title">Search</string>
+    <string name="searching">Type Person Name</string>
     <string name="second_name">Second Name</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_dashboard">Dashboard</string>

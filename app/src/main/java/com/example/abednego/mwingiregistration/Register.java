@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.support.annotation.IdRes;
 import android.support.design.widget.TextInputEditText;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.widget.AppCompatButton;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -23,11 +25,15 @@ public class Register extends Fragment {
 
     AppCompatButton btn_register;
     CheckBox below_18, above_18;
+    FragmentManager fragmentManager;
+
     @Override
     public View onCreateView(LayoutInflater inflater, final ViewGroup container,
                              Bundle savedInstanceState) {
 
         View view = inflater.inflate(R.layout.fragment_register, null);
+
+        fragmentManager=getActivity().getSupportFragmentManager();
 
         localDB = new LocalDB(getContext());
         xml_elements(view);
@@ -74,12 +80,19 @@ public class Register extends Fragment {
                 string_home_church = edit_home_church.getText().toString();
                 string_amount_paid = edit_amount_paid.getText().toString();
 
-                Boolean result=localDB.insert_values(string_first_name,string_second_name,string_gender,
-                        string_age_group,string_home_church,string_border_state,string_amount_paid);
-                if(result){
-                    Toast.makeText(getContext(), "Registered"+string_first_name+ " "+string_second_name, Toast.LENGTH_SHORT).show();
-                }else{
-                    Toast.makeText(getContext(), string_first_name+ " "+string_second_name+" not registered", Toast.LENGTH_SHORT).show();
+                Boolean result = localDB.insert_values(string_first_name, string_second_name, string_gender,
+                        string_age_group, string_home_church, string_border_state, string_amount_paid);
+                if (result) {
+                    Toast.makeText(getContext(), "Registered " + string_first_name + " " + string_second_name, Toast.LENGTH_SHORT).show();
+                    edit_first_name.setText("");
+                    edit_second_name.setText("");
+                    edit_home_church.setText("");
+                    edit_amount_paid.setText("");
+
+                    fragmentManager.beginTransaction().replace(R.id.content,new RegisteredList()).commit();
+
+                } else {
+                    Toast.makeText(getContext(), string_first_name + " " + string_second_name + " not registered", Toast.LENGTH_SHORT).show();
 
                 }
             }

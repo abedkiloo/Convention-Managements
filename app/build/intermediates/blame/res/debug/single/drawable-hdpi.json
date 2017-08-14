@@ -1,5 +1,13 @@
 [
     {
+        "merged": "/home/abednego/AndroidStudioProjects/MwingiRegistration/app/build/intermediates/res/merged/debug/drawable-hdpi/searching_icon.png",
+        "source": "/home/abednego/AndroidStudioProjects/MwingiRegistration/app/src/main/res/drawable-hdpi/searching_icon.png"
+    },
+    {
+        "merged": "/home/abednego/AndroidStudioProjects/MwingiRegistration/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_register.png",
+        "source": "/home/abednego/AndroidStudioProjects/MwingiRegistration/app/src/main/res/drawable-hdpi/ic_action_register.png"
+    },
+    {
         "merged": "/home/abednego/AndroidStudioProjects/MwingiRegistration/app/build/intermediates/res/merged/debug/drawable-hdpi/registered.png",
         "source": "/home/abednego/AndroidStudioProjects/MwingiRegistration/app/src/main/res/drawable-hdpi/registered.png"
     }

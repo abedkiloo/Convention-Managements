@@ -20,6 +20,8 @@
                 android:id="@+id/registered_full_names"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="1"
                 android:text="@string/app_name"
                 android:textSize="@dimen/sp_24"
                 android:textStyle="bold" />
@@ -33,6 +35,14 @@
                 android:textSize="@dimen/sp_16"
                 android:textStyle="italic" />
 
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/registered_border_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/register"
+                android:textSize="@dimen/sp_10"
+                android:textStyle="bold" />
+
 
         </android.support.v7.widget.LinearLayoutCompat>
 
@@ -45,6 +55,6 @@
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/colorAccent" />
+        android:layout_height=".5dp"
+        android:background="@color/dull" />
 </LinearLayout>

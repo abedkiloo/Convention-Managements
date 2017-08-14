@@ -24,4 +24,9 @@
     <string name="border">Border</string>
     <string name="not_border">Not Border</string>
     <string name="amount_paid">Amount Paid</string>
+
+
+
+    <!--data manipulations strings-->
+    <string name="searching">Type Person Name</string>
 </resources>

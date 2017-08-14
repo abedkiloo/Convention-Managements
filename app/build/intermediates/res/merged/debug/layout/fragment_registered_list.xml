@@ -1,4 +1,4 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -6,7 +6,21 @@
     android:id="@+id/register_fragment"
     android:padding="@dimen/sp_16"
     >
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/search_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edit_search_criteria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/searching"
+            android:drawableRight="@drawable/searching_icon"/>
+    </android.support.design.widget.TextInputLayout>
+
     <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/search_bar_layout"
         android:layout_width="match_parent"
         android:id="@+id/registered_recy_list"
         android:layout_height="wrap_content">
@@ -19,4 +33,4 @@
     <!--android:text="Pop RegisteredList"-->
     <!--android:id="@+id/btn_show_list"/>-->
 
-</FrameLayout>
+</RelativeLayout>

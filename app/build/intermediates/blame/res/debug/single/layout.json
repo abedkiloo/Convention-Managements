@@ -152,6 +152,10 @@
         "source": "/home/abednego/.android/build-cache/3601e201132eefbea6680fe8a9d80dd903f9bee3/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
+        "merged": "/home/abednego/AndroidStudioProjects/MwingiRegistration/app/build/intermediates/res/merged/debug/layout/fragment_registered_list.xml",
+        "source": "/home/abednego/AndroidStudioProjects/MwingiRegistration/app/src/main/res/layout/fragment_registered_list.xml"
+    },
+    {
         "merged": "/home/abednego/AndroidStudioProjects/MwingiRegistration/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
         "source": "/home/abednego/.android/build-cache/b9dcffe92348aa520618a4270362481c3e7c0bbd/output/res/layout/design_navigation_menu_item.xml"
     },
@@ -186,10 +190,6 @@
     {
         "merged": "/home/abednego/AndroidStudioProjects/MwingiRegistration/app/build/intermediates/res/merged/debug/layout/fragment_register.xml",
         "source": "/home/abednego/AndroidStudioProjects/MwingiRegistration/app/src/main/res/layout/fragment_register.xml"
-    },
-    {
-        "merged": "/home/abednego/AndroidStudioProjects/MwingiRegistration/app/build/intermediates/res/merged/debug/layout/fragment_list.xml",
-        "source": "/home/abednego/AndroidStudioProjects/MwingiRegistration/app/src/main/res/layout/fragment_list.xml"
     },
     {
         "merged": "/home/abednego/AndroidStudioProjects/MwingiRegistration/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",

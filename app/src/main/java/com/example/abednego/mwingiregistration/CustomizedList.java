@@ -1,6 +1,7 @@
 package com.example.abednego.mwingiregistration;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.support.v7.widget.AppCompatTextView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -17,6 +18,8 @@ public class CustomizedList extends RecyclerView.Adapter<CustomizedList.VIewElem
 
     Context context;
     List<PersonDetails> personDetailsList;
+    View v;
+    VIewElements viewElements;
 
     public CustomizedList(Context g_coContext, List<PersonDetails> g_personDetailsList) {
         this.context = g_coContext;
@@ -26,8 +29,8 @@ public class CustomizedList extends RecyclerView.Adapter<CustomizedList.VIewElem
     @Override
     public VIewElements onCreateViewHolder(ViewGroup parent, int viewType) {
 
-        View v = LayoutInflater.from(context).inflate(R.layout.recycler_custom_view, null);
-        VIewElements viewElements = new VIewElements(v);
+        v = LayoutInflater.from(context).inflate(R.layout.recycler_custom_view, null);
+        viewElements = new VIewElements(v);
 
 
         return viewElements;
@@ -40,6 +43,7 @@ public class CustomizedList extends RecyclerView.Adapter<CustomizedList.VIewElem
         holder.full_names_tv.setText(personDetails.getString_first_name() + " "
                 + personDetails.getString_second_name());
         holder.church_name_tv.setText(personDetails.getString_home_church());
+        holder.border_status_tv.setText(personDetails.getString_border_state());
     }
 
     @Override
@@ -47,13 +51,21 @@ public class CustomizedList extends RecyclerView.Adapter<CustomizedList.VIewElem
         return personDetailsList.size();
     }
 
+    public void update_list(List<PersonDetails> list) {
+        this.personDetailsList = list;
+
+//        viewElements.full_names_tv.setTextColor(Color.BLUE);
+        notifyDataSetChanged();
+    }
+
     public class VIewElements extends RecyclerView.ViewHolder {
-        AppCompatTextView full_names_tv, church_name_tv;
+        AppCompatTextView full_names_tv, church_name_tv, border_status_tv;
 
         public VIewElements(View itemView) {
             super(itemView);
             full_names_tv = itemView.findViewById(R.id.registered_full_names);
             church_name_tv = itemView.findViewById(R.id.registered_home_church);
+            border_status_tv = itemView.findViewById(R.id.registered_border_status);
 
         }
     }
