@@ -1,4 +1,4 @@
-#Mon Aug 14 14:23:47 EAT 2017
+#Mon Aug 14 16:45:18 EAT 2017
 base.0=/home/abednego/AndroidStudioProjects/MwingiRegistration/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_cf3dc81b9d185965176dd5b27187b67cb8269627
 renamed.1=classes2.dex
 renamed.0=classes.dex
